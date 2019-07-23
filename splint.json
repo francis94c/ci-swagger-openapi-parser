@@ -1,0 +1,21 @@
+{
+  "name": "openapi-parser",
+  "type": "library",
+  "description": "A Code Igniter Package for Rendering Swagger Docs Open API Schema (JSON &amp; YAML(later)).",
+  "tags": ["openapi", "swagger"],
+  "page": "https://github.com/francis94c/openapi-parser",
+  "authors": [
+    {
+      "name": "Francis Ilechukwu",
+      "email": "francis94c@gmail.com",
+      "page": "about.me/francisilechukwu",
+      "role": "Developer"
+    }
+  ],
+  "php": ">=7.3",
+  "autoload": {
+    "libraries" : [
+      ["Swagger", "swagger"]
+    ]
+  }
+}
